@@ -1,0 +1,13 @@
+### VERSÃO [1.0] - 18/07/2018 ###
+
+# Adicionado
+- Menu principal e submenus.
+- Opções de voltar e sair em todos os menus.
+- Exercícios da lista 1 a 4*.
+- Enunciados dos exercícios comentados dentro de cada "case".
+- Opção "Licenças" no menu principal.
+
+* Exercícios faltando: 
+Lista 2 - 1i, 1ii, 1iii, 1iv, 2, 4, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17.
+Lista 4 - 13, 14, 15, 16.
+
