@@ -9,17 +9,17 @@
 /*
 ==============================================================================
 
->>> Compilação de algoritmos desenvolvida por Guilherme Encarnação e Silva
+>>> CompilaÃ§Ã£o de algoritmos desenvolvida por Guilherme EncarnaÃ§Ã£o e Silva
 >>> https://github.com/guizmo-silva
 >>> gui21silva@gmail.com
 
 ==============================================================================
 */
 
-//PROTÓTIPOS DAS FUNÇÕES DA LISTA 4
+//PROTÃ“TIPOS DAS FUNÃ‡Ã•ES DA LISTA 4
 
 //01
-float esfera1(float r1);  //O número ao lado do nome da função corresponde ao exercício que ela pertence na lista.
+float esfera1(float r1);  //O nÃºmero ao lado do nome da funÃ§Ã£o corresponde ao exercÃ­cio que ela pertence na lista.
 
 //02
 int verifica2(int v2);
@@ -57,17 +57,17 @@ int Categoria11(int idade11);
 float Media12(char tipo12, float n1_12, float n2_12, float n3_12);
 
 int main(){
-setlocale(LC_ALL, "Portuguese"); //Seta a linguagem para português
+setlocale(LC_ALL, "Portuguese"); //Seta a linguagem para portuguÃªs
 
 int selecao;
 
-printf("\t\t\t*** BEM-VINDO A COMPILAÇÃO DAS LISTAS DE ALGORITMO DO 1o CICLO DE ADS***\n");
+printf("\t\t\t*** BEM-VINDO A COMPILAÃ‡ÃƒO DAS LISTAS DE ALGORITMO DO 1o CICLO DE ADS***\n");
 printf("\t\t\t\t*** Listas do 2o semestre de 2017 ***\n\n");
-printf("*** Versão 1.0 ***\n\n");
+printf("*** VersÃ£o 1.0 ***\n\n");
 
-printf("> Esta lista tem como foco o aprendizado e prática de algoritmos de programação,\ne não da linguagem C especificamente.\n");
-printf("\n> Os enunciados completos dos problemas estão comentados antes de cada bloco de código.\n");
-printf("\n> A sintaxe deste código foi feita para rodar no compilador Code::Blocks.\n"
+printf("> Esta lista tem como foco o aprendizado e prÃ¡tica de algoritmos de programaÃ§Ã£o,\ne nÃ£o da linguagem C especificamente.\n");
+printf("\n> Os enunciados completos dos problemas estÃ£o comentados antes de cada bloco de cÃ³digo.\n");
+printf("\n> A sintaxe deste cÃ³digo foi feita para rodar no compilador Code::Blocks.\n"
        "Por isso podem haver \"anormalidades\" quanto a sintaxe oficial da linguagem C.\n");
 
 menu_principal:
@@ -92,26 +92,26 @@ switch(selecao)
             int selecao_lista1;
 
             printf("\n=============================================\n");
-            printf("\n>>> VOCÊ ESTÁ NA LISTA 01\n\n");
-            printf("\n>> Escolha o exercício desejado:\n\n");
-            printf("1  - Diferença do maior pelo menor.\n");
-            printf("2  - Receba 3 números e some os quadrados deles.\n");
-            printf("3  - Exibir um número e seu módulo.\n");
-            printf("4  - Cálculo de salário (Simples).\n");
+            printf("\n>>> VOCÃŠ ESTÃ NA LISTA 01\n\n");
+            printf("\n>> Escolha o exercÃ­cio desejado:\n\n");
+            printf("1  - DiferenÃ§a do maior pelo menor.\n");
+            printf("2  - Receba 3 nÃºmeros e some os quadrados deles.\n");
+            printf("3  - Exibir um nÃºmero e seu mÃ³dulo.\n");
+            printf("4  - CÃ¡lculo de salÃ¡rio (Simples).\n");
             printf("5  - Calculadora de rendimento de juros.\n");
-            printf("6  - Ler dois números e efetuar a adição.\n");
+            printf("6  - Ler dois nÃºmeros e efetuar a adiÃ§Ã£o.\n");
             printf("7  - Calculadora de idade.\n");
-            printf("8  - Calcular o produto entre dois números.\n");
-            printf("9  - Custo de um veículo.\n");
-            printf("10 - Cálculo dos produtos dos quadrados.\n");
-            printf("11 - Divisão de dois números. (Segundo pelo primeiro)\n");
-            printf("12 - Reajuste de salário.\n");
-            printf("13 - Calculadora de média escolar anual.\n");
-            printf("14 - Produto de três números.\n");
-            printf("15 - Receber dois números e efetuar cálculos.\n");
-            printf("16 - Equação de segundo grau.\n");
-            printf("17 - Determinar o tipo de triângulo.\n");
-            printf("18 - Equação de segundo grau completa.\n");
+            printf("8  - Calcular o produto entre dois nÃºmeros.\n");
+            printf("9  - Custo de um veÃ­culo.\n");
+            printf("10 - CÃ¡lculo dos produtos dos quadrados.\n");
+            printf("11 - DivisÃ£o de dois nÃºmeros. (Segundo pelo primeiro)\n");
+            printf("12 - Reajuste de salÃ¡rio.\n");
+            printf("13 - Calculadora de mÃ©dia escolar anual.\n");
+            printf("14 - Produto de trÃªs nÃºmeros.\n");
+            printf("15 - Receber dois nÃºmeros e efetuar cÃ¡lculos.\n");
+            printf("16 - EquaÃ§Ã£o de segundo grau.\n");
+            printf("17 - Determinar o tipo de triÃ¢ngulo.\n");
+            printf("18 - EquaÃ§Ã£o de segundo grau completa.\n");
             printf("19 - Peso ideal para homem e mulher.\n");
             printf("20 - Tabela de pesos e alturas.\n");
             printf("21 - VOLTAR.\n");
@@ -125,24 +125,24 @@ switch(selecao)
 
                 case 1:
                 {
-                    /*Leia dois valores numéricos e exiba a diferença do maior pelo menor.
-                    Se os números forem iguais informe ao usuário.*/
+                    /*Leia dois valores numÃ©ricos e exiba a diferenÃ§a do maior pelo menor.
+                    Se os nÃºmeros forem iguais informe ao usuÃ¡rio.*/
                     system("cls");
 
                     printf("***********************************************\n");
-                    printf("***      DIFERENÇA DO MAIOR PELO MENOR      ***\n");
+                    printf("***      DIFERENÃ‡A DO MAIOR PELO MENOR      ***\n");
                     printf("***********************************************\n\n");
-                    int a1,b1; //O número após o nome da variável é referente ao exercício, incluí para não causar conflito
+                    int a1,b1; //O nÃºmero apÃ³s o nome da variÃ¡vel Ã© referente ao exercÃ­cio, incluÃ­ para nÃ£o causar conflito
 
                     printf("Digite dois numeros quaisquer.\n");
                     scanf("%d %d", &a1, &b1);
 
                     if(b1==a1)
                     {
-                        printf("\nOs números são iguais.\n");
+                        printf("\nOs nÃºmeros sÃ£o iguais.\n");
                     } else if(b1>a1)
                         {
-                            printf("A diferenca do maior pelo menor é: %d", b1-a1);
+                            printf("A diferenca do maior pelo menor Ã©: %d", b1-a1);
                         } else
                             {
                                 printf("A diferenca do maior pelo menor e': %d\n", a1-b1);
@@ -160,9 +160,9 @@ switch(selecao)
 
                 case 2:
                 {
-                    /* Receba 3 números onde o primeiro deve ser maior do que zero e menor que 20.
-                    O segundo deve ser negativo e o terceiro representa um número qualquer.
-                    Calcule a soma de cada número elevado ao quadrado.
+                    /* Receba 3 nÃºmeros onde o primeiro deve ser maior do que zero e menor que 20.
+                    O segundo deve ser negativo e o terceiro representa um nÃºmero qualquer.
+                    Calcule a soma de cada nÃºmero elevado ao quadrado.
                     Se a soma resultar um valor inferior a 1000 solicite novos dados.*/
                     system("cls");
 
@@ -170,7 +170,7 @@ switch(selecao)
                     printf("***      RECEBA 3 NUMEROS E SOME OS QUADRADOS     ***\n");
                     printf("*****************************************************\n\n");
 
-                    float a2,b2,c2,d2; //O número após o nome da variável é referente ao exercício, incluí para não causar conflito
+                    float a2,b2,c2,d2; //O nÃºmero apÃ³s o nome da variÃ¡vel Ã© referente ao exercÃ­cio, incluÃ­ para nÃ£o causar conflito
                     do
                     {
                         do
@@ -220,8 +220,8 @@ switch(selecao)
 
                 case 3:
                 {
-                    /* Efetue a leitura de um valor inteiro qualquer e exiba o número lido e o seu módulo. O módulo
-                    de um número positivo é o próprio número e o módulo de um número negativo é obtido
+                    /* Efetue a leitura de um valor inteiro qualquer e exiba o nÃºmero lido e o seu mÃ³dulo. O mÃ³dulo
+                    de um nÃºmero positivo Ã© o prÃ³prio nÃºmero e o mÃ³dulo de um nÃºmero negativo Ã© obtido
                     multiplicando-o por menos 1. */
                     system("cls");
 
@@ -235,9 +235,9 @@ switch(selecao)
                     scanf("%d", &a3);
 
                     if(a3>=0)
-                            printf("\nO numero digitado e seu modulo são: %d, %d\n", a3, a3);
+                            printf("\nO numero digitado e seu modulo sÃ£o: %d, %d\n", a3, a3);
                         else
-                            printf("\nO numero digitado e seu modulo são: %d, %d\n", a3, a3*-1);
+                            printf("\nO numero digitado e seu modulo sÃ£o: %d, %d\n", a3, a3*-1);
 
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
@@ -251,9 +251,9 @@ switch(selecao)
 
                 case 4:
                 {
-                    /* Faça um programa que receba via teclado o salário-base de um funcionário, calcule e mostre
-                    o salário a receber, sabendo-se que esse funcionário tem gratificação de 5% sobre o salário-
-                    base e paga imposto de 7% sobre o salário-base. */
+                    /* FaÃ§a um programa que receba via teclado o salÃ¡rio-base de um funcionÃ¡rio, calcule e mostre
+                    o salÃ¡rio a receber, sabendo-se que esse funcionÃ¡rio tem gratificaÃ§Ã£o de 5% sobre o salÃ¡rio-
+                    base e paga imposto de 7% sobre o salÃ¡rio-base. */
                     system("cls");
 
                     printf("************************************\n");
@@ -285,8 +285,8 @@ switch(selecao)
 
                 case 5:
                 {
-                    /* Faça um programa que receba via teclado:
-                    o valor de um depósito, o valor da taxa de juros e o período.
+                    /* FaÃ§a um programa que receba via teclado:
+                    o valor de um depÃ³sito, o valor da taxa de juros e o perÃ­odo.
                     Calcule e mostre o valor do rendimento e o valor total depois do rendimento.*/
                     system("cls");
 
@@ -343,9 +343,9 @@ switch(selecao)
 
                 case 6:
                 {
-                    /* Leia dois valores numéricos e efetue a adição. Caso o resultado seja maior ou igual a 10 deve
-                    ser acrescido de mais 5; caso contrário, este resultado deve ser diminuído em 7. Apresente
-                    o resultado após a avaliação da condição. */
+                    /* Leia dois valores numÃ©ricos e efetue a adiÃ§Ã£o. Caso o resultado seja maior ou igual a 10 deve
+                    ser acrescido de mais 5; caso contrÃ¡rio, este resultado deve ser diminuÃ­do em 7. Apresente
+                    o resultado apÃ³s a avaliaÃ§Ã£o da condiÃ§Ã£o. */
                     system("cls");
 
                     printf("**************************************\n");
@@ -374,10 +374,10 @@ switch(selecao)
 
                 case 7:
                 {
-                    /* Faça um programa que receba o ano do nascimento de uma pessoa e o ano atual, calcule e
+                    /* FaÃ§a um programa que receba o ano do nascimento de uma pessoa e o ano atual, calcule e
                     mostre:
                     a) A idade dessa pessoa
-                    b) Quantos anos essa pessoa terá em 2020.  */
+                    b) Quantos anos essa pessoa terÃ¡ em 2020.  */
                     system("cls");
 
                     printf("**************************************\n");
@@ -414,7 +414,7 @@ switch(selecao)
 
                 case 8:
                 {
-                    /* Receba dois números quaisquer, onde o primeiro deve ser maior que zero e o segundo menor
+                    /* Receba dois nÃºmeros quaisquer, onde o primeiro deve ser maior que zero e o segundo menor
                     ou igual a zero. Calcule e mostre na tela o produto entre eles. */
                     system("cls");
 
@@ -439,7 +439,7 @@ switch(selecao)
                         scanf("%d", &b8);
 
                         if(b8>0)
-                            printf("\nSeu numero não e' menor ou igual a zero. Digite novamente.\n");
+                            printf("\nSeu numero nÃ£o e' menor ou igual a zero. Digite novamente.\n");
                             else
                                 printf("\nO produto dos numeros inseridos e': %d\n\n", a8*b8);
                     } while(b8>0);
@@ -456,13 +456,13 @@ switch(selecao)
 
                 case 9:
                 {
-                    /* O custo ao consumidor de um carro novo e a soma do preço da fábrica com o percentual de
-                    lucro do distribuidor e dos impostos aplicados ao preço de fábrica. Faça um programa que
-                    receba o preço de fábrica de um veículo, o percentual de lucro do distribuidor e o percentual
+                    /* O custo ao consumidor de um carro novo e a soma do preÃ§o da fÃ¡brica com o percentual de
+                    lucro do distribuidor e dos impostos aplicados ao preÃ§o de fÃ¡brica. FaÃ§a um programa que
+                    receba o preÃ§o de fÃ¡brica de um veÃ­culo, o percentual de lucro do distribuidor e o percentual
                     de impostos. Calcule e mostre:
                     a) O valor correspondente ao lucro do distribuidor
                     b) O valor correspondente aos impostos
-                    c) O preço final do veículo */
+                    c) O preÃ§o final do veÃ­culo */
                     system("cls");
 
                     printf("*****************************************\n");
@@ -472,11 +472,11 @@ switch(selecao)
 
                     do
                     {
-                        printf("\nDigite o preço de fábrica do veículo.\n");
+                        printf("\nDigite o preÃ§o de fÃ¡brica do veÃ­culo.\n");
                         scanf("%f", &preco9);
 
                         if(preco9<=0)
-                            printf("\nNúmero inválido, digite novamente.\n");
+                            printf("\nNÃºmero invÃ¡lido, digite novamente.\n");
                     } while(preco9<=0);
 
                     do
@@ -485,7 +485,7 @@ switch(selecao)
                         scanf("%f", &lucro9);
 
                         if(lucro9<=0)
-                            printf("\nNumero inválido, digite novamente.\n");
+                            printf("\nNumero invÃ¡lido, digite novamente.\n");
                     } while(lucro9<=0);
 
                     do
@@ -494,12 +494,12 @@ switch(selecao)
                         scanf("%f", &impostos9);
 
                         if(impostos9<=0)
-                            printf("\nNumero inválido, digite novamente.\n");
+                            printf("\nNumero invÃ¡lido, digite novamente.\n");
                     } while(impostos9<=0);
 
                     printf("\nO lucro do distribuidor sera' de: %.2f \n", preco9*(lucro9/100));
                     printf("\nOs impostos serao de: %.2f \n", preco9*(impostos9/100));
-                    printf("\nO preco final do veículo sera' de: %.2f \n", preco9*(1+(lucro9/100)+(impostos9/100)));
+                    printf("\nO preco final do veÃ­culo sera' de: %.2f \n", preco9*(1+(lucro9/100)+(impostos9/100)));
 
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
@@ -513,8 +513,8 @@ switch(selecao)
 
                 case 10:
                 {
-                    /* Receba três números, onde o primeiro e o segundo devem ser maiores ou iguais a 100 e o
-                    terceiro é qualquer. Calcule e exiba o produto dos seus quadrados. */
+                    /* Receba trÃªs nÃºmeros, onde o primeiro e o segundo devem ser maiores ou iguais a 100 e o
+                    terceiro Ã© qualquer. Calcule e exiba o produto dos seus quadrados. */
                     system("cls");
 
                     printf("**************************************************\n");
@@ -524,23 +524,23 @@ switch(selecao)
 
                     do
                     {
-                        printf("\nInsira um número maior ou igual a 100.\n");
+                        printf("\nInsira um nÃºmero maior ou igual a 100.\n");
                         scanf("%d", &a10);
 
                         if(a10<100)
-                            printf("\nNúmero diferente ou menor que 100. Digite novamente.\n");
+                            printf("\nNÃºmero diferente ou menor que 100. Digite novamente.\n");
                     } while(a10<100);
 
                     do
                     {
-                        printf("\nInsira um número maior ou igual a 100.\n");
+                        printf("\nInsira um nÃºmero maior ou igual a 100.\n");
                         scanf("%d", &b10);
 
                         if(b10<100)
-                                printf("\nNúmero diferente ou menor que 100. Digite novamente.\n");
+                                printf("\nNÃºmero diferente ou menor que 100. Digite novamente.\n");
                     } while(b10<100);
 
-                    printf("\nDigite um número qualquer.\n");
+                    printf("\nDigite um nÃºmero qualquer.\n");
                     scanf("%d", &c10);
 
                     printf("\nO produto dos quadrados dos numeros e': %d\n", pow(a10,2)*pow(b10,2)*pow(c10,2));
@@ -558,7 +558,7 @@ switch(selecao)
 
                 case 11:
                 {
-                    /* Receba dois números quaisquer, calcule e mostre na tela o resultado da divisão do segundo
+                    /* Receba dois nÃºmeros quaisquer, calcule e mostre na tela o resultado da divisÃ£o do segundo
                     pelo primeiro.*/
                     system("cls");
 
@@ -592,11 +592,11 @@ switch(selecao)
 
                 case 12:
                 {
-                    /* Elabore um programa que efetue o cálculo do reajuste de salário de um funcionário.
-                    Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor
-                    que 800 reais. Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste
-                    será de 10 %; caso seja maior que 1000, o reajuste deve ser de 5%.Ao final do programa
-                    deve apresentar o valor antigo e o novo salário. */
+                    /* Elabore um programa que efetue o cÃ¡lculo do reajuste de salÃ¡rio de um funcionÃ¡rio.
+                    Considere que o funcionÃ¡rio deve receber um reajuste de 15% caso seu salÃ¡rio seja menor
+                    que 800 reais. Se o salÃ¡rio for maior ou igual a 800 e menor ou igual a 1000, seu reajuste
+                    serÃ¡ de 10 %; caso seja maior que 1000, o reajuste deve ser de 5%.Ao final do programa
+                    deve apresentar o valor antigo e o novo salÃ¡rio. */
                     system("cls");
 
                     printf("*****************************************\n");
@@ -606,7 +606,7 @@ switch(selecao)
 
                     do
                     {
-                        printf("Insira o valor do salário do funcionario.\n");
+                        printf("Insira o valor do salÃ¡rio do funcionario.\n");
                         scanf("%f", &salario12);
 
                         if(salario12<=0)
@@ -615,16 +615,16 @@ switch(selecao)
 
                     if(salario12<800)
                     {
-                        printf("\nSalário atual: %.2f\n", salario12);
-                        printf("Novo salário com reajuste: %.2f\n", salario12*1.15);
+                        printf("\nSalÃ¡rio atual: %.2f\n", salario12);
+                        printf("Novo salÃ¡rio com reajuste: %.2f\n", salario12*1.15);
                     } else if(salario12>=800&&salario12<=1000)
                         {
-                            printf("\nSalário atual: %.2f\n", salario12);
-                            printf("Novo salário com reajuste: %.2f\n", salario12*1.10);
+                            printf("\nSalÃ¡rio atual: %.2f\n", salario12);
+                            printf("Novo salÃ¡rio com reajuste: %.2f\n", salario12*1.10);
                         } else
                             {
-                                printf("\nSalário atual: %.2f\n", salario12);
-                                printf("Novo salário com reajuste: %.2f\n", salario12*1.05);
+                                printf("\nSalÃ¡rio atual: %.2f\n", salario12);
+                                printf("Novo salÃ¡rio com reajuste: %.2f\n", salario12*1.05);
                             }
 
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
@@ -639,10 +639,10 @@ switch(selecao)
 
                 case 13:
                 {
-                    /* Leia quatro valores referentes às notas escolares de um aluno e exiba uma mensagem
-                    dizendo que ele foi aprovado se a média for maior ou igual a 5. Caso contrário informe que
-                    ele está reprovado. Apresente junto à mensagem o valor da média obtida pelo aluno
-                    independente de ter sido aprovado ou não. As notas deverão ser maiores ou iguais a zero e
+                    /* Leia quatro valores referentes Ã s notas escolares de um aluno e exiba uma mensagem
+                    dizendo que ele foi aprovado se a mÃ©dia for maior ou igual a 5. Caso contrÃ¡rio informe que
+                    ele estÃ¡ reprovado. Apresente junto Ã  mensagem o valor da mÃ©dia obtida pelo aluno
+                    independente de ter sido aprovado ou nÃ£o. As notas deverÃ£o ser maiores ou iguais a zero e
                     menores ou iguais a dez. */
                     system("cls");
 
@@ -711,7 +711,7 @@ switch(selecao)
 
                 case 14:
                 {
-                    /* Receba dois números, o primeiro deve ser maior que 100, o segundo deve ser menor que 50
+                    /* Receba dois nÃºmeros, o primeiro deve ser maior que 100, o segundo deve ser menor que 50
                     e o terceiro deve ser a soma dos dois anteriores. Calcule e exiba o produto entre eles. */
                     system("cls");
 
@@ -754,10 +754,10 @@ switch(selecao)
 
                 case 15:
                 {
-                    /* Receba dois números, o primeiro deve ser maior que 10 e menor que 25, o segundo deve ser
-                    maior ou igual a zero, o terceiro deve ser a soma dos dois primeiros e o quarto é o produto
-                    dos três números anteriores. Calcule e exiba a soma dos quadrados de cada um dos quatro
-                    números. Caso o resultado seja menor que 50000, solicite novos dados.  */
+                    /* Receba dois nÃºmeros, o primeiro deve ser maior que 10 e menor que 25, o segundo deve ser
+                    maior ou igual a zero, o terceiro deve ser a soma dos dois primeiros e o quarto Ã© o produto
+                    dos trÃªs nÃºmeros anteriores. Calcule e exiba a soma dos quadrados de cada um dos quatro
+                    nÃºmeros. Caso o resultado seja menor que 50000, solicite novos dados.  */
                     system("cls");
 
                     printf("*****************************************\n");
@@ -812,14 +812,14 @@ switch(selecao)
 
                 case 16:
                 {
-                    /* Receba três números que garantam a existência de uma equação do segundo grau. Se
-                    existirem raízes reais exiba-as. Caso não existam raízes informe ao usuário.
-                    Observações:
-                    a) Condição de existência de uma equação do segundo grau: o coeficiente que acompanha
-                    o x2 deverá ser um número diferente de zero.
-                    b) Delta maior que zero: a equação possui duas raízes reais e distintas.
-                    c) Delta igual à zero: a equação possui duas raízes iguais.
-                    d) Delta menor que zero: a equação não apresenta raízes reais. */
+                    /* Receba trÃªs nÃºmeros que garantam a existÃªncia de uma equaÃ§Ã£o do segundo grau. Se
+                    existirem raÃ­zes reais exiba-as. Caso nÃ£o existam raÃ­zes informe ao usuÃ¡rio.
+                    ObservaÃ§Ãµes:
+                    a) CondiÃ§Ã£o de existÃªncia de uma equaÃ§Ã£o do segundo grau: o coeficiente que acompanha
+                    o x2 deverÃ¡ ser um nÃºmero diferente de zero.
+                    b) Delta maior que zero: a equaÃ§Ã£o possui duas raÃ­zes reais e distintas.
+                    c) Delta igual Ã  zero: a equaÃ§Ã£o possui duas raÃ­zes iguais.
+                    d) Delta menor que zero: a equaÃ§Ã£o nÃ£o apresenta raÃ­zes reais. */
                     system("cls");
 
                     printf("*****************************************\n");
@@ -886,13 +886,13 @@ switch(selecao)
 
                 case 17:
                 {
-                    /* Receba três números que representam os lados de um triângulo e garantam a existência de
-                    um triângulo. Informe ao usuário se o triângulo é isósceles, eqüilátero ou escaleno.
-                    Observações:
-                    a) Garantir que cada lado é menor que a soma dos outros dois lados.
-                    b) O triângulo é eqüilátero quando todos os lados são iguais.
-                    c) O triângulo é isósceles quando apenas dois lados são iguais.
-                    d) O triângulo é escaleno quando todos os lados são diferentes.  */
+                    /* Receba trÃªs nÃºmeros que representam os lados de um triÃ¢ngulo e garantam a existÃªncia de
+                    um triÃ¢ngulo. Informe ao usuÃ¡rio se o triÃ¢ngulo Ã© isÃ³sceles, eqÃ¼ilÃ¡tero ou escaleno.
+                    ObservaÃ§Ãµes:
+                    a) Garantir que cada lado Ã© menor que a soma dos outros dois lados.
+                    b) O triÃ¢ngulo Ã© eqÃ¼ilÃ¡tero quando todos os lados sÃ£o iguais.
+                    c) O triÃ¢ngulo Ã© isÃ³sceles quando apenas dois lados sÃ£o iguais.
+                    d) O triÃ¢ngulo Ã© escaleno quando todos os lados sÃ£o diferentes.  */
                     system("cls");
 
                     printf("********************************************************\n");
@@ -964,9 +964,9 @@ switch(selecao)
 
                 case 18:
                 {
-                    /*Receba três números que garantam a existência de uma equação completa do segundo grau.
-                    Se existirem raízes reais exiba-as e informe ao usuário se são iguais ou diferentes. Caso não
-                    existam raízes também informe ao usuário e solicite novos dados. Considerar as observações
+                    /*Receba trÃªs nÃºmeros que garantam a existÃªncia de uma equaÃ§Ã£o completa do segundo grau.
+                    Se existirem raÃ­zes reais exiba-as e informe ao usuÃ¡rio se sÃ£o iguais ou diferentes. Caso nÃ£o
+                    existam raÃ­zes tambÃ©m informe ao usuÃ¡rio e solicite novos dados. Considerar as observaÃ§Ãµes
                     do ex.17.*/
                     system("cls");
 
@@ -1038,10 +1038,10 @@ switch(selecao)
 
                 case 19:
                 {
-                    /* Faça um programa que receba a altura e o sexo de uma pessoa e que calcule e mostre o seu
-                    peso ideal, utilizando as seguintes fórmulas:
-                    Para homens (72 * h) – 58
-                    Para mulheres (62,1* h) – 44.7 */
+                    /* FaÃ§a um programa que receba a altura e o sexo de uma pessoa e que calcule e mostre o seu
+                    peso ideal, utilizando as seguintes fÃ³rmulas:
+                    Para homens (72 * h) Â– 58
+                    Para mulheres (62,1* h) Â– 44.7 */
                     system("cls");
 
                     printf("************************************************\n");
@@ -1092,8 +1092,8 @@ switch(selecao)
 
                 case 20:
                 {
-                    /* Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a
-                    seguir e mostre qual a classificação dessa pessoa. */
+                    /* FaÃ§a um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a
+                    seguir e mostre qual a classificaÃ§Ã£o dessa pessoa. */
                     system("cls");
 
                     printf("*******************************************\n");
@@ -1192,7 +1192,7 @@ switch(selecao)
 
                 default:
                 {
-                    printf ("\nO ítem escolhido não existe. Escolha novamente.\n\n\n");
+                    printf ("\nO Ã­tem escolhido nÃ£o existe. Escolha novamente.\n\n\n");
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
                     getchar();
@@ -1210,27 +1210,27 @@ switch(selecao)
             int selecao_lista2;
 
             printf("\n=============================================\n");
-            printf("\n>>> VOCÊ ESTÁ NA LISTA 02\n\n");
-            printf("\n>> Escolha o exercício desejado:\n\n");
-            printf("1  - Gerar sequências de números delimitada pelo usuário.\n");
-            printf("2  - Verificar a quantidade de números positivos digitados.\n");
-            printf("3  - Calcular somatória de determinada quantidade de idades.\n");
-            printf("4  - Exibir determinada quantidade de números pares negativos.\n");
-            printf("5  - Exibir números digitados que são divisíveis por 2 e 3.\n");
-            printf("6  - Calcular o produto de determinada quantidade de números digitados.\n");
+            printf("\n>>> VOCÃŠ ESTÃ NA LISTA 02\n\n");
+            printf("\n>> Escolha o exercÃ­cio desejado:\n\n");
+            printf("1  - Gerar sequÃªncias de nÃºmeros delimitada pelo usuÃ¡rio.\n");
+            printf("2  - Verificar a quantidade de nÃºmeros positivos digitados.\n");
+            printf("3  - Calcular somatÃ³ria de determinada quantidade de idades.\n");
+            printf("4  - Exibir determinada quantidade de nÃºmeros pares negativos.\n");
+            printf("5  - Exibir nÃºmeros digitados que sÃ£o divisÃ­veis por 2 e 3.\n");
+            printf("6  - Calcular o produto de determinada quantidade de nÃºmeros digitados.\n");
             printf("7  - Calcular determinada quantidade de pesos digitados.\n");
-            printf("8  - Exibir a somatória de determinados números naturais digitados.\n");
-            printf("9  - Exibir quantos números negativos digitados são > -23 e < -16.\n");
-            printf("10 - Calcular a média de determinados números pares multiplos de 5\n");
-            printf("11 - Exibir a quantidade de termos positivos e a média deles.\n");
-            printf("12 - Ler números até que seja digitado 0.\n");
-            printf("13 - Exibir o maior número digitado.\n");
-            printf("14 - Exibir somatória de salários.\n");
-            printf("15 - Calcular a média de pesos numa determinada faixa.\n");
-            printf("16 - Calcular média de números ímpares digitados e dos pares < 20.\n");
-            printf("17 - Calcular números positivos divisíveis por 3.\n");
-            printf("18 - Gerar sequência de Fibonacci delimitada pelo usuário.\n");
-            printf("19 - Calcular o fatorial de um determinado número.\n");
+            printf("8  - Exibir a somatÃ³ria de determinados nÃºmeros naturais digitados.\n");
+            printf("9  - Exibir quantos nÃºmeros negativos digitados sÃ£o > -23 e < -16.\n");
+            printf("10 - Calcular a mÃ©dia de determinados nÃºmeros pares multiplos de 5\n");
+            printf("11 - Exibir a quantidade de termos positivos e a mÃ©dia deles.\n");
+            printf("12 - Ler nÃºmeros atÃ© que seja digitado 0.\n");
+            printf("13 - Exibir o maior nÃºmero digitado.\n");
+            printf("14 - Exibir somatÃ³ria de salÃ¡rios.\n");
+            printf("15 - Calcular a mÃ©dia de pesos numa determinada faixa.\n");
+            printf("16 - Calcular mÃ©dia de nÃºmeros Ã­mpares digitados e dos pares < 20.\n");
+            printf("17 - Calcular nÃºmeros positivos divisÃ­veis por 3.\n");
+            printf("18 - Gerar sequÃªncia de Fibonacci delimitada pelo usuÃ¡rio.\n");
+            printf("19 - Calcular o fatorial de um determinado nÃºmero.\n");
             printf("20 - VOLTAR.\n");
             printf("21 - SAIR.\n\n");
 
@@ -1242,7 +1242,7 @@ switch(selecao)
 
                 case 1:
                 {
-                    /*Gere e exiba cada uma das seqüências abaixo com uma quantidade k de termos determinados pelo usuário.
+                    /*Gere e exiba cada uma das seqÃ¼Ãªncias abaixo com uma quantidade k de termos determinados pelo usuÃ¡rio.
                     i. 3, 6, 9, 12, 15,...
                     ii. 1/4, 1/8, 1/12, 1/16, 1/20,...
                     iii. 1/8, 3/16, 5/24, 7/32, 9/40, 11/48,...
@@ -1254,7 +1254,7 @@ switch(selecao)
                     printf("*********************************************************\n");
                     printf("***      2/5, 4/10, 6/15, 8/20, 10/25, 12/30,...      ***\n");
                     printf("*********************************************************\n\n");
-                    int k1, cont1 = 0, a1 = 0, b1 = 0, c1;
+                    int k1, cont;
 
                     printf("Digite um numero maior que zero, que limite a sequencia numerica.\n");
                     do
@@ -1265,50 +1265,32 @@ switch(selecao)
                                 printf("\nNumero invalido, digite novamente.\n");
                             }
                     } while(k1<=0);
-
-                    while(cont1!=k1)
-                    {
-                        a1 = a1+2;
-                        b1 = b1+5;
-                        printf("%d/%d ", a1, b1);
-                        cont1 = cont1+1;
-                    }
-
-                    printf("\n\n*********************************************************\n");
-                    printf("***            4/8, 1, 36/24, 2 100/40, 3,...         ***\n");
-                    printf("*********************************************************\n\n");
-
-                    k1 = 0;
-                    cont1 = 0;
-                    a1 = 0;
-                    b1 = 0;
-                    c1 = 0;
-
-                    printf("Digite um numero maior que zero, que limite a sequencia numerica.\n");
-                    do
-                    {
-                        scanf("%d", &k1);
-                            if(k1<=0)
-                            {
-                                printf("\nNumero invalido, digite novamente.\n");
+                    printf("\n==============================================\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("%d ", cont*3);
                             }
-                    } while(k1<=0);
-                    printf("\n");
-
-                    for(cont1=0; cont1<k1; cont1++)
-                    {
-                        a1=a1+2;
-                        b1=b1+8;
-                        c1=pow(a1,2);
-
-                        if(c1%b1==0)
-                        {
-                            printf("%d, ", c1/b1);
-                        } else
-                            {
-                                printf("%d/%d, ", c1, b1);
-                            }
-                    }
+                    printf("\n----------------------------------------------\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("1/%d ", cont*4);
+                        }
+                    printf("\n----------------------------------------------\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("%d/%d ", cont*2-1,cont*8 );
+                        }
+                    printf("\n----------------------------------------------\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("%d/%d ", cont*2,cont*3);
+                        }
+                    printf("\n----------------------------------------------\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("%d/%d ", cont*2,cont*5);
+                        }
+                    printf("\n----------------------------------------------\n");
+                    for(cont=1; cont<=k1; cont++){
+                        printf("%d/%d %d ", cont*cont*4,cont*8, cont/2+1);
+                        cont++;
+                        }
+                    printf("\n==============================================\n");
 
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
@@ -1322,9 +1304,9 @@ switch(selecao)
 
                 case 2:
                 {
-                    /*Receba a quantidade K de números quaisquer. K representa essa quantidade e deve ser digitada
-                    pelo usuário. A variável Num armazena cada uma dos K números digitados e deverá ser alimentada
-                    pelo usuário. Verifique e exiba a quantidade de números positivos digitada.  */
+                    /*Receba a quantidade K de nÃºmeros quaisquer. K representa essa quantidade e deve ser digitada
+                    pelo usuÃ¡rio. A variÃ¡vel Num armazena cada uma dos K nÃºmeros digitados e deverÃ¡ ser alimentada
+                    pelo usuÃ¡rio. Verifique e exiba a quantidade de nÃºmeros positivos digitada.  */
                     system("cls");
 
 
@@ -1340,10 +1322,10 @@ switch(selecao)
 
                 case 3:
                 {
-                    /* Receba a quantidade de idades de K indivíduos.
-                    K representa essa quantidade e deve ser digitada pelo usuário.
-                    A variável Idade armazena cada uma das K idades digitadas.
-                    Calcule e mostre a somatória dessas idades. */
+                    /* Receba a quantidade de idades de K indivÃ­duos.
+                    K representa essa quantidade e deve ser digitada pelo usuÃ¡rio.
+                    A variÃ¡vel Idade armazena cada uma das K idades digitadas.
+                    Calcule e mostre a somatÃ³ria dessas idades. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1390,10 +1372,10 @@ switch(selecao)
 
                 case 4:
                 {
-                    /*Receba K números. Exiba a quantidade de números pares negativos e quantas vezes o número zero
+                    /*Receba K nÃºmeros. Exiba a quantidade de nÃºmeros pares negativos e quantas vezes o nÃºmero zero
                     foi digitado.
-                    Obs1: K representa a quantidade de números digitados pelo usuário.
-                    Obs2: A variável Num representa cada número digitado pelo usuário.*/
+                    Obs1: K representa a quantidade de nÃºmeros digitados pelo usuÃ¡rio.
+                    Obs2: A variÃ¡vel Num representa cada nÃºmero digitado pelo usuÃ¡rio.*/
                     system("cls");
 
 
@@ -1409,10 +1391,10 @@ switch(selecao)
 
                 case 5:
                 {
-                    /* Receba K números positivos.
-                    Cada número recebido deverá ser armazenado na variável Num
-                    e a variável K representa a quantidade de números solicitada pelo usuário.
-                    Exiba a quantidade de números divisíveis por 2 e 3 ao mesmo tempo. */
+                    /* Receba K nÃºmeros positivos.
+                    Cada nÃºmero recebido deverÃ¡ ser armazenado na variÃ¡vel Num
+                    e a variÃ¡vel K representa a quantidade de nÃºmeros solicitada pelo usuÃ¡rio.
+                    Exiba a quantidade de nÃºmeros divisÃ­veis por 2 e 3 ao mesmo tempo. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1454,8 +1436,8 @@ switch(selecao)
 
                 case 6:
                 {
-                    /*Receba via teclado um número X, onde este número representa a quantidade de termos que
-                    o usuário deseja. H representa cada um desses números, calcule o produto dos X números.
+                    /*Receba via teclado um nÃºmero X, onde este nÃºmero representa a quantidade de termos que
+                    o usuÃ¡rio deseja. H representa cada um desses nÃºmeros, calcule o produto dos X nÃºmeros.
                     OBS: H deve ser maior ou igual a 15. */
                     system("cls");
 
@@ -1473,8 +1455,8 @@ switch(selecao)
                 case 7:
                 {
                     /*Receba a quantidade de pesos de N pessoas. N representa essa quantidade e deve ser digitada
-                    pelo usuário. A variável Peso armazena cada um do K pesos digitados.
-                    Calcule e mostre a média dos pesos digitados.*/
+                    pelo usuÃ¡rio. A variÃ¡vel Peso armazena cada um do K pesos digitados.
+                    Calcule e mostre a mÃ©dia dos pesos digitados.*/
                     system("cls");
 
 
@@ -1491,7 +1473,7 @@ switch(selecao)
                 case 8:
                 {
                     /*Mostre na tela a soma e o produto dos K primeiros naturais.  OBS: K representa a quantidade
-                    de números naturais solicitado via teclado pelo usuário. Os números naturais deverão
+                    de nÃºmeros naturais solicitado via teclado pelo usuÃ¡rio. Os nÃºmeros naturais deverÃ£o
                     ser gerados pelo programador. 0, 1, 2, 3, 4, 5, 6,....*/
                     system("cls");
 
@@ -1508,9 +1490,9 @@ switch(selecao)
 
                 case 9:
                 {
-                    /*Receba a quantidade K de números quaisquer. K representa essa quantidade e deve ser digitada
-                    pelo usuário. A variável Num armazena cada uma dos K números digitados e deverá ser alimentada
-                    pelo usuário. Verifique e exiba a quantidade de números negativos superiores ou igual
+                    /*Receba a quantidade K de nÃºmeros quaisquer. K representa essa quantidade e deve ser digitada
+                    pelo usuÃ¡rio. A variÃ¡vel Num armazena cada uma dos K nÃºmeros digitados e deverÃ¡ ser alimentada
+                    pelo usuÃ¡rio. Verifique e exiba a quantidade de nÃºmeros negativos superiores ou igual
                     a -23 e inferiores a -16.*/
                     system("cls");
 
@@ -1527,9 +1509,9 @@ switch(selecao)
 
                 case 10:
                 {
-                    /*Calcule e mostre a média dos K primeiros pares e múltiplos de cinco.
-                    OBS: K representa a quantidade solicitada de números pares via teclado pelo usuário.
-                    Os números pares deverão ser gerados pelo programador: 2, 4, 6, 8, 10...*/
+                    /*Calcule e mostre a mÃ©dia dos K primeiros pares e mÃºltiplos de cinco.
+                    OBS: K representa a quantidade solicitada de nÃºmeros pares via teclado pelo usuÃ¡rio.
+                    Os nÃºmeros pares deverÃ£o ser gerados pelo programador: 2, 4, 6, 8, 10...*/
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1576,9 +1558,9 @@ switch(selecao)
 
                 case 11:
                 {
-                    /*Receba K números inteiros quaisquer, K representa a quantidade de termos solicitada pelo
-                    usuário e cada termo pode ser representado pela variável N. Exiba a quantidade de números
-                    positivos recebidos e a média dos números ímpares.*/
+                    /*Receba K nÃºmeros inteiros quaisquer, K representa a quantidade de termos solicitada pelo
+                    usuÃ¡rio e cada termo pode ser representado pela variÃ¡vel N. Exiba a quantidade de nÃºmeros
+                    positivos recebidos e a mÃ©dia dos nÃºmeros Ã­mpares.*/
                     system("cls");
 
 
@@ -1594,8 +1576,8 @@ switch(selecao)
 
                 case 12:
                 {
-                    /* Leia um número inteiro representado pela variável N até que N seja igual a zero.
-                    Exiba uma mensagem informando se o número é par ou ímpar. */
+                    /* Leia um nÃºmero inteiro representado pela variÃ¡vel N atÃ© que N seja igual a zero.
+                    Exiba uma mensagem informando se o nÃºmero Ã© par ou Ã­mpar. */
                     system("cls");
 
 
@@ -1611,8 +1593,8 @@ switch(selecao)
 
                 case 13:
                 {
-                    /* Receba K números quaisquer, K representa a quantidade de termos solicitada pelo usuário
-                    e cada termo pode ser representado pela variável N. Exiba o  maior número digitado.*/
+                    /* Receba K nÃºmeros quaisquer, K representa a quantidade de termos solicitada pelo usuÃ¡rio
+                    e cada termo pode ser representado pela variÃ¡vel N. Exiba o  maior nÃºmero digitado.*/
                     system("cls");
 
 
@@ -1628,10 +1610,10 @@ switch(selecao)
 
                 case 14:
                 {
-                    /* Receba a quantidade de salários de K indivíduos. K representa essa quantidade e deve ser
-                    digitada pelo usuário. A variável Salário armazena cada uma dos K salários digitados.
-                    Calcule e mostre a somatória dos salários superiores a 3 salários mínimos e inferior
-                    ou igual a 7 salários mínimos. Exiba também o maior e o menor salário encontrado.*/
+                    /* Receba a quantidade de salÃ¡rios de K indivÃ­duos. K representa essa quantidade e deve ser
+                    digitada pelo usuÃ¡rio. A variÃ¡vel SalÃ¡rio armazena cada uma dos K salÃ¡rios digitados.
+                    Calcule e mostre a somatÃ³ria dos salÃ¡rios superiores a 3 salÃ¡rios mÃ­nimos e inferior
+                    ou igual a 7 salÃ¡rios mÃ­nimos. Exiba tambÃ©m o maior e o menor salÃ¡rio encontrado.*/
                     system("cls");
 
 
@@ -1648,11 +1630,11 @@ switch(selecao)
                 case 15:
                 {
                     /*Receba a quantidade de pesos de N pessoas.
-                    N representa essa quantidade e deve ser digitada pelo usuário.
-                    A variável Peso armazena cada um do K pesos digitados.
-                    Calcule e mostre a média dos pesos superiores ou iguais a 70 quilos e inferiores ou iguais a 85,5
+                    N representa essa quantidade e deve ser digitada pelo usuÃ¡rio.
+                    A variÃ¡vel Peso armazena cada um do K pesos digitados.
+                    Calcule e mostre a mÃ©dia dos pesos superiores ou iguais a 70 quilos e inferiores ou iguais a 85,5
                     e a quantidade de pessoas que apresentam pesos superiores a 75 quilos.
-                    Exiba também o menor e o maior peso encontrado. */
+                    Exiba tambÃ©m o menor e o maior peso encontrado. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1735,9 +1717,9 @@ switch(selecao)
 
                 case 16:
                 {
-                    /* Receba a quantidade K de números positivos. K representa essa quantidade e deve ser digitada
-                    pelo usuário. A variável Num armazena cada uma dos K números digitados. Calcule e mostre a
-                    quantidade de números ímpares e a média dos números pares superiores a 20.*/
+                    /* Receba a quantidade K de nÃºmeros positivos. K representa essa quantidade e deve ser digitada
+                    pelo usuÃ¡rio. A variÃ¡vel Num armazena cada uma dos K nÃºmeros digitados. Calcule e mostre a
+                    quantidade de nÃºmeros Ã­mpares e a mÃ©dia dos nÃºmeros pares superiores a 20.*/
                     system("cls");
 
 
@@ -1753,10 +1735,10 @@ switch(selecao)
 
                 case 17:
                 {
-                    /*Receba a quantidade K de números quaisquer. K representa essa quantidade e deve ser digitada
-                    pelo usuário. A variável Num armazena cada uma dos K números digitados. Calcule e mostre a
-                    quantidade de números positivos divisíveis por 3, a média dos números negativos.
-                    Exiba também o maior número encontrado e quantas vezes ele apareceu.*/
+                    /*Receba a quantidade K de nÃºmeros quaisquer. K representa essa quantidade e deve ser digitada
+                    pelo usuÃ¡rio. A variÃ¡vel Num armazena cada uma dos K nÃºmeros digitados. Calcule e mostre a
+                    quantidade de nÃºmeros positivos divisÃ­veis por 3, a mÃ©dia dos nÃºmeros negativos.
+                    Exiba tambÃ©m o maior nÃºmero encontrado e quantas vezes ele apareceu.*/
                     system("cls");
 
 
@@ -1772,9 +1754,9 @@ switch(selecao)
 
                 case 18:
                 {
-                    /*Gere a seguinte sequência abaixo para K termos.
-                    K representa a quantidade de números que o usuário gostaria quer fosse exibida dessa sequência.
-                    Mostre também a somatória apenas dos números divisíveis por 3 dessa sequência. */
+                    /*Gere a seguinte sequÃªncia abaixo para K termos.
+                    K representa a quantidade de nÃºmeros que o usuÃ¡rio gostaria quer fosse exibida dessa sequÃªncia.
+                    Mostre tambÃ©m a somatÃ³ria apenas dos nÃºmeros divisÃ­veis por 3 dessa sequÃªncia. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1821,8 +1803,8 @@ switch(selecao)
 
                 case 19:
                 {
-                    /*Solicite ao usuário um número maior ou igual a zero e inteiro representado pela variável Num.
-                    Calcular o fatorial desse número. OBS: O Fatorial de zero e de um é um. */
+                    /*Solicite ao usuÃ¡rio um nÃºmero maior ou igual a zero e inteiro representado pela variÃ¡vel Num.
+                    Calcular o fatorial desse nÃºmero. OBS: O Fatorial de zero e de um Ã© um. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1868,7 +1850,7 @@ switch(selecao)
 
                 default:
                 {
-                    printf ("\nO ítem escolhido não existe. Escolha novamente.\n\n\n");
+                    printf ("\nO Ã­tem escolhido nÃ£o existe. Escolha novamente.\n\n\n");
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
                     getchar();
@@ -1884,20 +1866,20 @@ switch(selecao)
             int selecao_lista3;
 
             printf("\n=============================================\n");
-            printf("\n>>> VOCÊ ESTÁ NA LISTA 03\n\n");
-            printf("\n>> Escolha o exercício desejado:\n\n");
+            printf("\n>>> VOCÃŠ ESTÃ NA LISTA 03\n\n");
+            printf("\n>> Escolha o exercÃ­cio desejado:\n\n");
             printf("1  - Ler e mostrar 15 elementos de um vetor.\n");
-            printf("2  - Receber 12 números positivos num vetor.\n");
-            printf("3  - Armazenar 10 números num vetor. Mostrar o menor.\n");
-            printf("4  - Armazenar 10 números num vetor. Mostrar o menor par.\n");
-            printf("5  - Armazenar no vetor A 10 números positivos. Montar vetor B com o negativos.\n");
+            printf("2  - Receber 12 nÃºmeros positivos num vetor.\n");
+            printf("3  - Armazenar 10 nÃºmeros num vetor. Mostrar o menor.\n");
+            printf("4  - Armazenar 10 nÃºmeros num vetor. Mostrar o menor par.\n");
+            printf("5  - Armazenar no vetor A 10 nÃºmeros positivos. Montar vetor B com o negativos.\n");
             printf("6  - Inverter valores em 2 vetores.\n");
             printf("7  - Receber 3 vetores e construir o quarto com os 3 primeiros.\n");
-            printf("8  - Receber nota de 10 alunos num vetor. Calcular média e aprovados.\n");
+            printf("8  - Receber nota de 10 alunos num vetor. Calcular mÃ©dia e aprovados.\n");
             printf("9  - Receber o peso de 15 pessoas.\n");
-            printf("10 - Receber o salário de 13 pessoas. Mostrar maiores e menores salários.\n");
-            printf("11 - Receber 10 elementos. Somar os ímpares. Montar vetor com a posição deles.\n");
-            printf("12 - Ler determinada quantidade de elementos nos vetores A e B. Separar as posições par e ímpar.\n");
+            printf("10 - Receber o salÃ¡rio de 13 pessoas. Mostrar maiores e menores salÃ¡rios.\n");
+            printf("11 - Receber 10 elementos. Somar os Ã­mpares. Montar vetor com a posiÃ§Ã£o deles.\n");
+            printf("12 - Ler determinada quantidade de elementos nos vetores A e B. Separar as posiÃ§Ãµes par e Ã­mpar.\n");
             printf("13 - VOLTAR.\n");
             printf("14 - SAIR.\n\n");
 
@@ -1908,7 +1890,7 @@ switch(selecao)
             {
                 case 1:
                 {
-                    /*Leia quinze elementos de um vetor. Após a alimentação mostre todos os elementos armazenados no vetor. */
+                    /*Leia quinze elementos de um vetor. ApÃ³s a alimentaÃ§Ã£o mostre todos os elementos armazenados no vetor. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1948,8 +1930,8 @@ switch(selecao)
 
                 case 2:
                 {
-                    /*Receba doze números positivos e armazene no vetor A.
-                    Após a alimentação de todos os números mostre apenas os números maiores que 121 que estão armazenados no vetor. */
+                    /*Receba doze nÃºmeros positivos e armazene no vetor A.
+                    ApÃ³s a alimentaÃ§Ã£o de todos os nÃºmeros mostre apenas os nÃºmeros maiores que 121 que estÃ£o armazenados no vetor. */
                     system("cls");
 
                     printf("*********************************************************\n");
@@ -1997,9 +1979,9 @@ switch(selecao)
 
                 case 3:
                 {
-                    /*Armazene num vetor dez números positivos.
-                    Exiba o conteúdo do vetor.
-                    Mostre o menor número, quantas vezes ele foi digitado e em que posições ele apareceu dentro do vetor. */
+                    /*Armazene num vetor dez nÃºmeros positivos.
+                    Exiba o conteÃºdo do vetor.
+                    Mostre o menor nÃºmero, quantas vezes ele foi digitado e em que posiÃ§Ãµes ele apareceu dentro do vetor. */
                     system("cls");
 
                     printf("******************************************************************\n");
@@ -2048,9 +2030,9 @@ switch(selecao)
 
                 case 4:
                 {
-                    /*Armazene num vetor no máximo dez números quaisquer.
-                    Exiba o conteúdo do vetor.
-                    Mostre o menor número par, quantas vezes ele foi digitado e em que posições ele apareceu dentro do vetor. */
+                    /*Armazene num vetor no mÃ¡ximo dez nÃºmeros quaisquer.
+                    Exiba o conteÃºdo do vetor.
+                    Mostre o menor nÃºmero par, quantas vezes ele foi digitado e em que posiÃ§Ãµes ele apareceu dentro do vetor. */
                     system("cls");
 
                     printf("**********************************************************************\n");
@@ -2132,10 +2114,10 @@ switch(selecao)
                 case 5:
                 {
                     /*Armazene no vetor A 10 elementos positivos.
-                    Construa o vetor B do mesmo tipo e dimensão.
+                    Construa o vetor B do mesmo tipo e dimensÃ£o.
                     Cada elemento do vetor B deve ser o valor negativo do elemento correspondente do vetor A.
-                    Desta forma, se em A [1] estiver armazenado o elemento 8 deve estar em B [1] o valor –8,
-                    e assim por diante. Apresentar o conteúdo dos dois vetores.*/
+                    Desta forma, se em A [1] estiver armazenado o elemento 8 deve estar em B [1] o valor Â–8,
+                    e assim por diante. Apresentar o conteÃºdo dos dois vetores.*/
                     system("cls");
 
                     printf("********************************************************************************************\n");
@@ -2190,11 +2172,11 @@ switch(selecao)
 
                 case 6:
                 {
-                    /*O usuário poderá digitar a quantidade de números que ele deseja armazenar no vetor A
+                    /*O usuÃ¡rio poderÃ¡ digitar a quantidade de nÃºmeros que ele deseja armazenar no vetor A
                     desde que esse valor seja superior a 4 e inferior ou igual a 20.
-                    Construa o vetor B da mesma dimensão e com os mesmos elementos do vetor A.
-                    Observando que o primeiro elemento de A passa a ser o último de B, o segundo elemento de A
-                    passa a ser o penúltimo de B e a assim por diante. Exibir o conteúdo dos dois vetores.*/
+                    Construa o vetor B da mesma dimensÃ£o e com os mesmos elementos do vetor A.
+                    Observando que o primeiro elemento de A passa a ser o Ãºltimo de B, o segundo elemento de A
+                    passa a ser o penÃºltimo de B e a assim por diante. Exibir o conteÃºdo dos dois vetores.*/
                     system("cls");
 
                     printf("************************************************************************************************************\n");
@@ -2262,10 +2244,10 @@ switch(selecao)
 
                 case 7:
                 {
-                    /*Leia três vetores (A, B e C) de uma dimensão com 5 elementos cada.
-                    Construa o vetor D, sendo este a junção dos três outros vetores.
+                    /*Leia trÃªs vetores (A, B e C) de uma dimensÃ£o com 5 elementos cada.
+                    Construa o vetor D, sendo este a junÃ§Ã£o dos trÃªs outros vetores.
                     Armazene no vetor D o primeiro elemento do vetor A depois do B e do C e assim sucessivamente.
-                    Apresentar o conteúdo de todos os vetores. Exiba quantas vezes apareceram números negativos no vetor D.*/
+                    Apresentar o conteÃºdo de todos os vetores. Exiba quantas vezes apareceram nÃºmeros negativos no vetor D.*/
                     system("cls");
 
                     printf("************************************************************************************************************\n");
@@ -2302,7 +2284,7 @@ switch(selecao)
                             vetorD7[y_7]=vetorA7[x_7];
                             vetorD7[y_7+1]=vetorB7[x_7];
                             vetorD7[y_7+2]=vetorC7[x_7];
-                            y_7=y_7+3;// Esse Y não acumula o valor de "y_7+2". O programa entende quando vc muda a posição ou o valor da variável.
+                            y_7=y_7+3;// Esse Y nÃ£o acumula o valor de "y_7+2". O programa entende quando vc muda a posiÃ§Ã£o ou o valor da variÃ¡vel.
 
                             if(vetorA7[x_7]<0 || vetorB7[x_7]<0 || vetorC7[x_7]<0)
                                 contnegativo7=contnegativo7+1;
@@ -2372,9 +2354,9 @@ switch(selecao)
                 case 8:
                 {
                     /*Receba a nota de dez alunos e armazene essas notas em um vetor. Calcule e mostre:
-                    a)	A média da classe;
-                    b)	A quantidade de alunos aprovados, isto é, com nota >=7;
-                    c)	A quantidade de alunos reprovados, isto é, com nota <7*/
+                    a)	A mÃ©dia da classe;
+                    b)	A quantidade de alunos aprovados, isto Ã©, com nota >=7;
+                    c)	A quantidade de alunos reprovados, isto Ã©, com nota <7*/
                     system("cls");
 
                     printf("***********************************************************************\n");
@@ -2418,15 +2400,15 @@ switch(selecao)
 
                 case 9:
                 {
-                    /*Receba o peso e nome de um grupo contendo no máximo de 15 pessoas.
-                    Armazene esses dados em dois vetores, o primeiro contendo os pesos e o >>segundo contendo os nomes.<<NÃO PRECISA
+                    /*Receba o peso e nome de um grupo contendo no mÃ¡ximo de 15 pessoas.
+                    Armazene esses dados em dois vetores, o primeiro contendo os pesos e o >>segundo contendo os nomes.<<NÃƒO PRECISA
                     Calcule e mostre:
                     a) Quantas pessoas apresentaram peso superior ao menor peso.
-                    >>Armazene os nomes das pessoas que satisfazem essa condição.<< NÃO PRECISA
-                    Mostre o conteúdo desse vetor no programa principal.
+                    >>Armazene os nomes das pessoas que satisfazem essa condiÃ§Ã£o.<< NÃƒO PRECISA
+                    Mostre o conteÃºdo desse vetor no programa principal.
 
                     b) Armazene num outro vetor os pesos superiores a 55 quilos e menores ou igual a 80 quilos das pessoas.
-                    Mostre o conteúdo desse vetor. */
+                    Mostre o conteÃºdo desse vetor. */
                     system("cls");
 
                     printf("*******************************************************\n");
@@ -2503,12 +2485,12 @@ switch(selecao)
 
                 case 10:
                 {
-                    /*Receba o salário e o nome de um grupo contendo no máximo 13 pessoas.
-                    Armazene esses dados em dois vetores, o primeiro contendo os salários e o segundo contendo os nomes.
+                    /*Receba o salÃ¡rio e o nome de um grupo contendo no mÃ¡ximo 13 pessoas.
+                    Armazene esses dados em dois vetores, o primeiro contendo os salÃ¡rios e o segundo contendo os nomes.
                     Calcule e mostre:
-                    a)	>>Armazene em um vetor os nomes de todas as pessoas que apresentam a maior salário.<< NÃO PRECISA
-                    b)	>>Armazene num outro vetor os nomes de todas as pessoas que apresentam a menor salário encontrado.<< NÃO PRECISA
-                    Mostre o conteúdo de todos os vetores. */
+                    a)	>>Armazene em um vetor os nomes de todas as pessoas que apresentam a maior salÃ¡rio.<< NÃƒO PRECISA
+                    b)	>>Armazene num outro vetor os nomes de todas as pessoas que apresentam a menor salÃ¡rio encontrado.<< NÃƒO PRECISA
+                    Mostre o conteÃºdo de todos os vetores. */
                     system("cls");
 
                     printf("******************************************************************\n");
@@ -2584,8 +2566,8 @@ switch(selecao)
                 case 11:
                 {
                     /* Efetue a leitura de dez elementos para o vetor A.
-                    No final, apresente a somatória de todos os elementos do vetor A que sejam ímpares.
-                    Armazene no vetor B a posição em que estão armazenados os números ímpares. Mostre o conteúdo dos dois vetores. */
+                    No final, apresente a somatÃ³ria de todos os elementos do vetor A que sejam Ã­mpares.
+                    Armazene no vetor B a posiÃ§Ã£o em que estÃ£o armazenados os nÃºmeros Ã­mpares. Mostre o conteÃºdo dos dois vetores. */
                     system("cls");
 
                     printf("********************************************************\n");
@@ -2652,9 +2634,9 @@ switch(selecao)
 
                 case 12:
                 {
-                    /*Leia k elementos (valores inteiros) para os vetores A e B de uma dimensão do tipo vetor.
-                    Construir vetores C e D. O vetor C deve ser formado pelos elementos de índice ímpar dos vetores A e B,
-                    e O vetor D deve ser formado pelos elementos de índice par dos vetores A e B. Apresente os conteúdos de todos os vetores. */
+                    /*Leia k elementos (valores inteiros) para os vetores A e B de uma dimensÃ£o do tipo vetor.
+                    Construir vetores C e D. O vetor C deve ser formado pelos elementos de Ã­ndice Ã­mpar dos vetores A e B,
+                    e O vetor D deve ser formado pelos elementos de Ã­ndice par dos vetores A e B. Apresente os conteÃºdos de todos os vetores. */
                     system("cls");
 
                     printf("*******************************************************************************************\n");
@@ -2775,7 +2757,7 @@ switch(selecao)
 
                 default:
                 {
-                    printf ("\nO ítem escolhido não existe. Escolha novamente.\n\n\n");
+                    printf ("\nO Ã­tem escolhido nÃ£o existe. Escolha novamente.\n\n\n");
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
                     getchar();
@@ -2792,24 +2774,24 @@ switch(selecao)
             int selecao_lista4;
 
             printf("\n=============================================\n");
-            printf("\n>>> VOCÊ ESTÁ NA LISTA 04\n\n");
-            printf("\n>> Escolha o exercício desejado:\n\n");
-            printf("1  - Função que calcula o volume de uma esfera.\n");
-            printf("2  - Função que identifica se o valor é positivo ou negativo.\n");
-            printf("3  - Função que divide 2 números.\n");
-            printf("4  - Função que faz cálculo de reajuste de salário.\n");
-            printf("5  - Função que identifica se um número é par ou ímpar.\n");
-            printf("6  - Função que faz cálculo de reajuste de salário (2).\n");
-            printf("7  - Função que mostra determinado número de termos da sequência Fibonacci.\n");
-            printf("8  - Função que calcula equação de segundo grau.\n");
-            printf("9  - Função que calcula o fatorial de um número.\n");
-            printf("10 - Função que determina o tipo de triângulo inserido.\n");
-            printf("11 - Função que categoriza um usuário pela idade inserida.\n");
-            printf("12 - Função de calculo de média ponderada e média harmônica.\n");
-            printf("13 - Função que recebe número positivo e mostra a tabuada do 1 até esse número.\n");
-            printf("14 - Função que calcula e mostra o conceito da média de determinados alunos.\n");
-            printf("15 - Função que calcula o peso ideal para homem e mulheres.\n");
-            printf("16 - Função com 4 vetores.\n");
+            printf("\n>>> VOCÃŠ ESTÃ NA LISTA 04\n\n");
+            printf("\n>> Escolha o exercÃ­cio desejado:\n\n");
+            printf("1  - FunÃ§Ã£o que calcula o volume de uma esfera.\n");
+            printf("2  - FunÃ§Ã£o que identifica se o valor Ã© positivo ou negativo.\n");
+            printf("3  - FunÃ§Ã£o que divide 2 nÃºmeros.\n");
+            printf("4  - FunÃ§Ã£o que faz cÃ¡lculo de reajuste de salÃ¡rio.\n");
+            printf("5  - FunÃ§Ã£o que identifica se um nÃºmero Ã© par ou Ã­mpar.\n");
+            printf("6  - FunÃ§Ã£o que faz cÃ¡lculo de reajuste de salÃ¡rio (2).\n");
+            printf("7  - FunÃ§Ã£o que mostra determinado nÃºmero de termos da sequÃªncia Fibonacci.\n");
+            printf("8  - FunÃ§Ã£o que calcula equaÃ§Ã£o de segundo grau.\n");
+            printf("9  - FunÃ§Ã£o que calcula o fatorial de um nÃºmero.\n");
+            printf("10 - FunÃ§Ã£o que determina o tipo de triÃ¢ngulo inserido.\n");
+            printf("11 - FunÃ§Ã£o que categoriza um usuÃ¡rio pela idade inserida.\n");
+            printf("12 - FunÃ§Ã£o de calculo de mÃ©dia ponderada e mÃ©dia harmÃ´nica.\n");
+            printf("13 - FunÃ§Ã£o que recebe nÃºmero positivo e mostra a tabuada do 1 atÃ© esse nÃºmero.\n");
+            printf("14 - FunÃ§Ã£o que calcula e mostra o conceito da mÃ©dia de determinados alunos.\n");
+            printf("15 - FunÃ§Ã£o que calcula o peso ideal para homem e mulheres.\n");
+            printf("16 - FunÃ§Ã£o com 4 vetores.\n");
             printf("17 - VOLTAR.\n");
             printf("18 - SAIR.\n\n");
 
@@ -2820,9 +2802,9 @@ switch(selecao)
             {
                 case 1:
                 {
-                    /*Crie a função Esfera que receba da função main o valor do raio e
+                    /*Crie a funÃ§Ã£o Esfera que receba da funÃ§Ã£o main o valor do raio e
                     calcule o volume da esfera o seu volume (v = 4/3*Pi*R 3 ). Exiba o
-                    resultado obtido no interior da função main.*/
+                    resultado obtido no interior da funÃ§Ã£o main.*/
                     system("cls");
                     printf("****************************************************************\n");
                     printf("***         CALCULAR VOLUME DE UMA ESFERA COM FUNCAO         ***\n");
@@ -2849,9 +2831,9 @@ switch(selecao)
 
                 case 2:
                 {
-                    /* Crie a função Verifica que receba da função main um valor do tipo
-                    inteiro e verifica se o valor é positivo ou negativo. Exiba na função main
-                    o número digitado e informe se o número é positivo ou negativo ou
+                    /* Crie a funÃ§Ã£o Verifica que receba da funÃ§Ã£o main um valor do tipo
+                    inteiro e verifica se o valor Ã© positivo ou negativo. Exiba na funÃ§Ã£o main
+                    o nÃºmero digitado e informe se o nÃºmero Ã© positivo ou negativo ou
                     zero. */
                     system("cls");
                     printf("***************************************************************************\n");
@@ -2886,9 +2868,9 @@ switch(selecao)
 
                 case 3:
                 {
-                    /*Crie a função Divisão que receba da função main dois números que
-                    possibilitem o cálculo da divisão do primeiro pelo segundo. Exiba na
-                    função main os números e o resultado obtido na função Divisão.*/
+                    /*Crie a funÃ§Ã£o DivisÃ£o que receba da funÃ§Ã£o main dois nÃºmeros que
+                    possibilitem o cÃ¡lculo da divisÃ£o do primeiro pelo segundo. Exiba na
+                    funÃ§Ã£o main os nÃºmeros e o resultado obtido na funÃ§Ã£o DivisÃ£o.*/
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***         EFETUAR UMA DIVISAO DO PRIMEIRO PELO SEGUNDO NUMERO         ***\n");
@@ -2925,10 +2907,10 @@ switch(selecao)
 
                 case 4:
                 {
-                    /*Crie a função ReajSalNovo que receba da função main o valor do salário e efetue o cálculo do reajuste de salário cada funcionário.
-                    Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor que 800 reais.
-                    Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste será de 10 %;
-                    caso seja maior que 1000, o reajuste deve ser de 5%. Exiba na função main o salário antigo e novo salário obtido na função.  */
+                    /*Crie a funÃ§Ã£o ReajSalNovo que receba da funÃ§Ã£o main o valor do salÃ¡rio e efetue o cÃ¡lculo do reajuste de salÃ¡rio cada funcionÃ¡rio.
+                    Considere que o funcionÃ¡rio deve receber um reajuste de 15% caso seu salÃ¡rio seja menor que 800 reais.
+                    Se o salÃ¡rio for maior ou igual a 800 e menor ou igual a 1000, seu reajuste serÃ¡ de 10 %;
+                    caso seja maior que 1000, o reajuste deve ser de 5%. Exiba na funÃ§Ã£o main o salÃ¡rio antigo e novo salÃ¡rio obtido na funÃ§Ã£o.  */
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***                         REAJUSTE DE SALARIOS                        ***\n");
@@ -2957,9 +2939,9 @@ switch(selecao)
 
                 case 5:
                 {
-                    /*Crie a função ParImpar5 que receba da função main um valor do tipo inteiro
-                    e maior que zero que verifique se o número é para ou ímpar.
-                    Exiba na função main o número e o resultado obtido na função ParImpar5.*/
+                    /*Crie a funÃ§Ã£o ParImpar5 que receba da funÃ§Ã£o main um valor do tipo inteiro
+                    e maior que zero que verifique se o nÃºmero Ã© para ou Ã­mpar.
+                    Exiba na funÃ§Ã£o main o nÃºmero e o resultado obtido na funÃ§Ã£o ParImpar5.*/
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***         FUNCAO QUE DETERMINA SE O NUMERO E' PAR OU IMPAR            ***\n");
@@ -2990,11 +2972,11 @@ switch(selecao)
 
                 case 6:
                 {
-                    /*Crie a função ReajSalNovo que receba da função main o valor do salário e efetue o cálculo do reajuste de salário cada funcionário.
-                    Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor que 800 reais.
-                    Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste será de 10 %; caso seja maior que 1000,
-                    o reajuste deve ser de 5%. Exiba na função main o salário antigo e novo salário obtido na função de K números definido pelo usuário.
-                    Essa quantidade K deverá ser maior que zero e menor ou igual a 10.   */
+                    /*Crie a funÃ§Ã£o ReajSalNovo que receba da funÃ§Ã£o main o valor do salÃ¡rio e efetue o cÃ¡lculo do reajuste de salÃ¡rio cada funcionÃ¡rio.
+                    Considere que o funcionÃ¡rio deve receber um reajuste de 15% caso seu salÃ¡rio seja menor que 800 reais.
+                    Se o salÃ¡rio for maior ou igual a 800 e menor ou igual a 1000, seu reajuste serÃ¡ de 10 %; caso seja maior que 1000,
+                    o reajuste deve ser de 5%. Exiba na funÃ§Ã£o main o salÃ¡rio antigo e novo salÃ¡rio obtido na funÃ§Ã£o de K nÃºmeros definido pelo usuÃ¡rio.
+                    Essa quantidade K deverÃ¡ ser maior que zero e menor ou igual a 10.   */
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***                         REAJUSTE DE SALARIOS 2                      ***\n");
@@ -3069,10 +3051,10 @@ switch(selecao)
 
                 case 7:
                 {
-                    /*Crie a função MédiaFibonacci que receba da função main um valor do tipo inteiro e maior que zero que
-                    represente a quantidade de termos da seqüência e calcule a média dos termos da seqüência.
-                    Exiba na função main o resultado obtido na função MédiaFibonacci.
-                    Seqüência de Fibonacci:
+                    /*Crie a funÃ§Ã£o MÃ©diaFibonacci que receba da funÃ§Ã£o main um valor do tipo inteiro e maior que zero que
+                    represente a quantidade de termos da seqÃ¼Ãªncia e calcule a mÃ©dia dos termos da seqÃ¼Ãªncia.
+                    Exiba na funÃ§Ã£o main o resultado obtido na funÃ§Ã£o MÃ©diaFibonacci.
+                    SeqÃ¼Ãªncia de Fibonacci:
                      0  1  1  2   3   5   8  13  21....  */
                     system("cls");
                     printf("***************************************************************************\n");
@@ -3103,14 +3085,14 @@ switch(selecao)
 
                 case 8:
                 {
-                    /* Crie a função Delta que receba da função main três números reais que garantem a existência de uma equação do segundo grau.
-                    Verifique e exiba dentro da função main se há raízes reais e os seus respectivos valores. Caso contrário informe ao usuário.
-                    Observações:
+                    /* Crie a funÃ§Ã£o Delta que receba da funÃ§Ã£o main trÃªs nÃºmeros reais que garantem a existÃªncia de uma equaÃ§Ã£o do segundo grau.
+                    Verifique e exiba dentro da funÃ§Ã£o main se hÃ¡ raÃ­zes reais e os seus respectivos valores. Caso contrÃ¡rio informe ao usuÃ¡rio.
+                    ObservaÃ§Ãµes:
 
-                    a. Condição de existência de uma equação do segundo grau: o coeficiente que acompanha o x2 deverá ser um número diferente de zero.
-                    b. Delta maior que zero: a equação possui duas raízes reais e distintas.
-                    c. Delta igual à zero: a equação possui duas raízes iguais.
-                    d. Delta menor que zero: a equação não apresenta raízes reais. */
+                    a. CondiÃ§Ã£o de existÃªncia de uma equaÃ§Ã£o do segundo grau: o coeficiente que acompanha o x2 deverÃ¡ ser um nÃºmero diferente de zero.
+                    b. Delta maior que zero: a equaÃ§Ã£o possui duas raÃ­zes reais e distintas.
+                    c. Delta igual Ã  zero: a equaÃ§Ã£o possui duas raÃ­zes iguais.
+                    d. Delta menor que zero: a equaÃ§Ã£o nÃ£o apresenta raÃ­zes reais. */
                     system("cls");
                     printf("************************************************\n");
                     printf("***      FUNCAO EQUACAO DE SEGUNDO GRAU      ***\n");
@@ -3159,9 +3141,9 @@ switch(selecao)
 
                 case 9:
                 {
-                    /*Crie a função Fatorial que receba da função main um número inteiro maior ou igual a zero
-                    e calcule o fatorial desse número. Exiba na função main o número e o seu respectivo
-                    fatorial obtido na função Fatorial.*/
+                    /*Crie a funÃ§Ã£o Fatorial que receba da funÃ§Ã£o main um nÃºmero inteiro maior ou igual a zero
+                    e calcule o fatorial desse nÃºmero. Exiba na funÃ§Ã£o main o nÃºmero e o seu respectivo
+                    fatorial obtido na funÃ§Ã£o Fatorial.*/
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***                             FUNCAO FATORIAL                         ***\n");
@@ -3194,12 +3176,12 @@ switch(selecao)
 
                 case 10:
                 {
-                    /*Crie a função TipoTriangulo que receba da função main três números reais e verifique no interior da função o tipo do triângulo baseado nas condições abaixo.
-                    Exiba na função main os números que representam os lados dor triângulo e o seu tipo obtido através da função TipoTriangulo.
-                    Observações: a. Garantir que cada lado é menor que a soma dos outros dois lados.
-                    b. O triângulo é eqüilátero quando todos os lados são iguais.
-                    c. O triângulo é isósceles quando apenas dois lados são iguais.
-                    d. O triângulo é escaleno quando todos os lados são diferentes.*/
+                    /*Crie a funÃ§Ã£o TipoTriangulo que receba da funÃ§Ã£o main trÃªs nÃºmeros reais e verifique no interior da funÃ§Ã£o o tipo do triÃ¢ngulo baseado nas condiÃ§Ãµes abaixo.
+                    Exiba na funÃ§Ã£o main os nÃºmeros que representam os lados dor triÃ¢ngulo e o seu tipo obtido atravÃ©s da funÃ§Ã£o TipoTriangulo.
+                    ObservaÃ§Ãµes: a. Garantir que cada lado Ã© menor que a soma dos outros dois lados.
+                    b. O triÃ¢ngulo Ã© eqÃ¼ilÃ¡tero quando todos os lados sÃ£o iguais.
+                    c. O triÃ¢ngulo Ã© isÃ³sceles quando apenas dois lados sÃ£o iguais.
+                    d. O triÃ¢ngulo Ã© escaleno quando todos os lados sÃ£o diferentes.*/
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***                            FUNCAO TRIANGULO                         ***\n");
@@ -3252,8 +3234,8 @@ switch(selecao)
 
                 case 11:
                 {
-                    /* Crie a função Categoria que receba da função main um valor do tipo inteiro e maior que zero que representa a idade e que verifique a categoria  baseada na  tabela abaixo.
-                    Exiba na função main o número e a categoria de um grupo de K números definido pelo usuário. Essa quantidade K deverá ser maior ou igual a 3 e menor ou igual a 10.
+                    /* Crie a funÃ§Ã£o Categoria que receba da funÃ§Ã£o main um valor do tipo inteiro e maior que zero que representa a idade e que verifique a categoria  baseada na  tabela abaixo.
+                    Exiba na funÃ§Ã£o main o nÃºmero e a categoria de um grupo de K nÃºmeros definido pelo usuÃ¡rio. Essa quantidade K deverÃ¡ ser maior ou igual a 3 e menor ou igual a 10.
 
                     Idade Categoria
                     5 a 7 anos Infantil A
@@ -3299,11 +3281,11 @@ switch(selecao)
 
                 case 12:
                 {
-                    /*Crie a função Media que receba três notas e uma letra de um aluno .
-                    Se a letra for A o procedimento calcula a média aritmética das notas do
-                    aluno, se for P, a sua média ponderada (pesos: 5, 3 e 2) e se for H, a
-                    sua média harmônica. Exiba na função main a média calculada na
-                    função Media.*/
+                    /*Crie a funÃ§Ã£o Media que receba trÃªs notas e uma letra de um aluno .
+                    Se a letra for A o procedimento calcula a mÃ©dia aritmÃ©tica das notas do
+                    aluno, se for P, a sua mÃ©dia ponderada (pesos: 5, 3 e 2) e se for H, a
+                    sua mÃ©dia harmÃ´nica. Exiba na funÃ§Ã£o main a mÃ©dia calculada na
+                    funÃ§Ã£o Media.*/
                     system("cls");
                     printf("***************************************************************************\n");
                     printf("***                           CALCULO DE MEDIAS                         ***\n");
@@ -3362,8 +3344,8 @@ switch(selecao)
 
                 case 13:
                 {
-                    /*Crie a função NumeroPositivo que garanta  o recebimento no seu interior de um número maior que zero.
-                    Calcule e escreva dentro da função main a tabuada de 1 até N. Mostre a tabuada na forma:
+                    /*Crie a funÃ§Ã£o NumeroPositivo que garanta  o recebimento no seu interior de um nÃºmero maior que zero.
+                    Calcule e escreva dentro da funÃ§Ã£o main a tabuada de 1 atÃ© N. Mostre a tabuada na forma:
                     1 x N = N
                     2 x N = 2N  */
                     system("cls");
@@ -3381,10 +3363,10 @@ switch(selecao)
 
                 case 14:
                 {
-                    /*Crie a função Média que garanta o recebimento no seu interior de quatro números maiores ou iguais
-                    a zero e menores ou iguais a 10 que representam as médias de um aluno. Calcule a média aritmética
-                    e exiba o conceito do aluno baseado na tabela abaixo e o seu nome recebido no interior da função main.
-                    A quantidade de alunos é definida pelo usuário e é no mínimo 3 e no máximo 50 alunos. */
+                    /*Crie a funÃ§Ã£o MÃ©dia que garanta o recebimento no seu interior de quatro nÃºmeros maiores ou iguais
+                    a zero e menores ou iguais a 10 que representam as mÃ©dias de um aluno. Calcule a mÃ©dia aritmÃ©tica
+                    e exiba o conceito do aluno baseado na tabela abaixo e o seu nome recebido no interior da funÃ§Ã£o main.
+                    A quantidade de alunos Ã© definida pelo usuÃ¡rio e Ã© no mÃ­nimo 3 e no mÃ¡ximo 50 alunos. */
                     system("cls");
 
 
@@ -3400,11 +3382,11 @@ switch(selecao)
 
                 case 15:
                 {
-                    /*Crie a função Peso Ideal que por parâmetro da função main, a altura (alt) e o sexo de uma pessoa
-                    e retorna o seu peso ideal.O  recebimento da altura que deverá ser maior que zero e do sexo que só
-                    poderá ser m ou f será feito no interior da função main. Para homens, calcular o peso ideal usando
-                    a fórmula peso ideal = 72.7 x alt - 58 e, para mulheres, peso ideal = 62.1 x alt - 44.7.
-                    A quantidade de indivíduos será definida pelo usuário e deverá ser maior que 3 e menor ou igual a 12. */
+                    /*Crie a funÃ§Ã£o Peso Ideal que por parÃ¢metro da funÃ§Ã£o main, a altura (alt) e o sexo de uma pessoa
+                    e retorna o seu peso ideal.O  recebimento da altura que deverÃ¡ ser maior que zero e do sexo que sÃ³
+                    poderÃ¡ ser m ou f serÃ¡ feito no interior da funÃ§Ã£o main. Para homens, calcular o peso ideal usando
+                    a fÃ³rmula peso ideal = 72.7 x alt - 58 e, para mulheres, peso ideal = 62.1 x alt - 44.7.
+                    A quantidade de indivÃ­duos serÃ¡ definida pelo usuÃ¡rio e deverÃ¡ ser maior que 3 e menor ou igual a 12. */
                     system("cls");
 
 
@@ -3420,13 +3402,13 @@ switch(selecao)
 
                 case 16:
                 {
-                    /*Receba três vetores (A, B e C) que são variáveis globais na função Cadastro.Cada vetor
-                    deverá receber 5 elementos.O vetor D que também é uma variável global é resultado da junção
-                    dos três vetores.O primeiro elemento do vetor D será o primeiro elemento do vetor A , o segundo
-                    elemento do vetor D  será o primeiro elemento do vetor B, terceiro elemento do vetor D  ser
-                    o primeiro do vetor C e assim sucessivamente.Crie a função Maiornúmero que deverá verificar
-                    no vetor D qual foi o maior número digitado e exibi-lo na função main juntamente
-                    com o conteúdo do vetor D.*/
+                    /*Receba trÃªs vetores (A, B e C) que sÃ£o variÃ¡veis globais na funÃ§Ã£o Cadastro.Cada vetor
+                    deverÃ¡ receber 5 elementos.O vetor D que tambÃ©m Ã© uma variÃ¡vel global Ã© resultado da junÃ§Ã£o
+                    dos trÃªs vetores.O primeiro elemento do vetor D serÃ¡ o primeiro elemento do vetor A , o segundo
+                    elemento do vetor D  serÃ¡ o primeiro elemento do vetor B, terceiro elemento do vetor D  ser
+                    o primeiro do vetor C e assim sucessivamente.Crie a funÃ§Ã£o MaiornÃºmero que deverÃ¡ verificar
+                    no vetor D qual foi o maior nÃºmero digitado e exibi-lo na funÃ§Ã£o main juntamente
+                    com o conteÃºdo do vetor D.*/
                     system("cls");
 
 
@@ -3456,7 +3438,7 @@ switch(selecao)
 
                 default:
                 {
-                    printf ("\nO ítem escolhido não existe. Escolha novamente.\n\n\n");
+                    printf ("\nO Ã­tem escolhido nÃ£o existe. Escolha novamente.\n\n\n");
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
                     getchar();
@@ -3468,13 +3450,13 @@ switch(selecao)
         case 5:
         {
             system("cls");
-            printf("\t>>> LICENÇA CREATIVE COMMONS\n\n");
-            printf("Este trabalho está licenciado sob uma Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional.\n"
-                    "Para ver uma cópia desta licença, visite http://creativecommons.org/licenses/by-sa/4.0/.");
+            printf("\t>>> LICENÃ‡A CREATIVE COMMONS\n\n");
+            printf("Este trabalho estÃ¡ licenciado sob uma LicenÃ§a Creative Commons AtribuiÃ§Ã£o-CompartilhaIgual 4.0 Internacional.\n"
+                    "Para ver uma cÃ³pia desta licenÃ§a, visite http://creativecommons.org/licenses/by-sa/4.0/.");
 
-            printf("\n\n\n\t>>> LICENÇA MIT\n\n");
+            printf("\n\n\n\t>>> LICENÃ‡A MIT\n\n");
 
-            printf("Copyright 2018 GUILHERME ENCARNAÇÃO E SILVA\n\n"
+            printf("Copyright 2018 GUILHERME ENCARNAÃ‡ÃƒO E SILVA\n\n"
                     "Permission is hereby granted, free of charge, to any person obtaining a copy of this software\n"
                     "and associated documentation files (the \"Software\"), to deal in the Software without restriction,\n"
                     "including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,\n"
@@ -3502,12 +3484,12 @@ switch(selecao)
             sair:
             system("cls");
             printf ("\n>>> Obrigado por utilizar a lista!\n");
-            printf ("\n>>> ATÉ LOGO!\n\n");
+            printf ("\n>>> ATÃ‰ LOGO!\n\n");
             break;
         }
         default:
                 {
-                    printf ("\nO ítem escolhido não existe. Escolha novamente.\n\n\n");
+                    printf ("\nO Ã­tem escolhido nÃ£o existe. Escolha novamente.\n\n\n");
                     printf("\n\n(Pressione ENTER para voltar ao menu).\n");
                     getchar();
                     getchar();
@@ -3518,7 +3500,7 @@ switch(selecao)
 }
 
 
-//FUNÇÕES DA LISTA 04
+//FUNÃ‡Ã•ES DA LISTA 04
 //01
 float esfera1(float r1)
 {
