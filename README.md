@@ -12,6 +12,19 @@ causando alguns problemas caso você utilize outro compilador.
 - Os enunciados completos dos problemas estão comentados antes de cada bloco de código.
   
 - Este projeto é aberto para aperfeiçoamentos, traduções e modificações.
+
+## Algorithms List
+- Algorithms wrote in C language.
+ 
+- This list is focused on learning and practicing programming algorithms, not C language specifically.
+
+- The syntax of these codes were made to run on Code::Blocks.
+Because of that, you may find some "abnormalitys" if compared to the classic C oficial syntax that may cause issues if you run it on another compiler.
+
+- The full questions of each algorithms can be found commented before the respective codes.
+  
+- This project is open source, feel free to modify, translate and enhance.
+
 ---
 
 > Esta compilação foi criada por mim como um projeto de férias entre o
